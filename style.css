@@ -1,0 +1,303 @@
+.main{                                            
+        background-image: url(backgroun.avif);     
+        height: 100vh;                       
+        background-size: cover;                
+        background-position: center;          
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        margin: -1%;
+        padding: 0;
+      }
+
+      .navbar{
+        width: 1200px;    
+        height: 75px;      
+        margin: auto;     
+         
+      }
+
+      .icon{
+        width: auto;
+        float: left;
+        height: 70px;
+      }
+
+     .logo{
+       color: brown;
+      font-size: 35px;
+      font-size: arial;
+      padding-left: 20px;
+      float: left;
+      padding-top: 10px;
+      text-align: left;
+      margin-left: -70%;   
+      margin-top: 27px;  
+     }
+
+     .menu{
+        width: 400px;    
+        float: left;      
+        height: 70px;     
+      
+     }
+
+ul{
+        float: left;   
+        display: flex;  
+        justify-content: center;   
+        align-items: center;       
+    }
+
+    ul li{
+        list-style: none;     
+        margin-left: 72px;      
+        margin-top: 27px;      
+        font-size: 14px;       
+    
+    }
+
+    ul li a{
+      text-decoration: none;            
+      color: black;                  
+      font-family: arial;              
+      font-weight: bold;              
+      transition: 0.45 ease-in-out;     
+    }
+
+    ul li a:hover{
+      color: orange;
+    }
+
+     .searching{    
+      width:400px;     
+      float: right;  
+      height: 70px;    
+      margin-left:auto;
+      margin-right:-160px;
+     }
+
+     .srch{                      
+      font-family: 'Times New Roman';   
+      width: 200px;                    
+      height: 40px;                     
+      background: transparent;          
+      border: 1px solid blue;        
+      color: black;                 
+      border-right: none;             
+      font-size: 16px;                
+      float: left;                  
+      padding: 10px;                 
+       margin-top: 27px;              
+        margin-left: 72px;             
+      border-bottom-left-radius:5px;   
+      border-top-left-radius: 5px;     
+     }
+
+     .srch{
+      outline:auto;                   
+     }
+
+     .btn{                            
+      width: 100px;                   
+      height:40px;                     
+      background:orange;            
+      border:2px solid orange;        
+      color:white;                  
+      font-size:15px;                
+       margin-top: 27px;              
+      border-bottom-right-radius: 5px;   
+      border-top-right-radius: 5px;     
+      font-weight: bold;
+     
+    
+     }
+
+     .btn :focus{
+      outline: none;          
+     }
+     
+
+.content{
+      width: 1200px;
+      height:auto;
+      margin:auto;
+      color:black;
+      position: relative;
+      right: 12%;
+      margin-left: 10%;
+      margin-top: -5%;
+      
+    
+     }
+
+     .content .paragraph{
+      padding-left:10px;
+      padding-bottom: 25px;
+      font-family: arial;
+      letter-spacing: 1.2px;
+      line-height: 30px;
+      margin-left:4%;
+      font-weight: bold;
+    
+     }
+
+     .content h1{
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 50px;
+      padding-left: 20px;
+      margin-top: 150px;
+      letter-spacing: 2px;
+      margin-left:3%;    
+     }
+
+     .content .nextbutton{
+      width: 160px;
+      height:40px;
+      position: relative;         
+      background: yellow;
+      left:0;                    
+      border:none;
+      margin-bottom: 10px;
+      margin-left: 3%; 
+      font-size: 18px;
+      border-radius: 10px;
+      cursor: pointer;   
+      color:black;              
+      transition: all 3s ease;        
+      font-weight: bold;
+     }
+     
+
+    .content span{               
+      color: green;
+      font-size: 60px;
+    }
+
+
+.form{
+        width:250px;
+        height:380px;
+        background: linear-gradient(to top,#D6EAF8);
+        position: absolute;
+        top:200px;
+        left:1180px;
+        border-radius: 10px;
+        padding:25px;
+        border: 2%;
+      }
+
+      .form h2{
+       
+        width: 220px;  
+        font-family: sans-serif;
+        text-align: center;
+        color:white;
+        font-size: 22px;
+        background-color: purple;
+        border-radius: 10px;  
+        margin:2px; 
+         padding:8px;
+
+      }
+      
+
+
+      .form input{
+        width:240px;
+        height: 35px;
+        background: transparent;
+       border-bottom: 1px solid #D6EAF8; 
+        border-top:none;
+        border-right: none;
+        border-left: none;
+        color:blue;
+        font-size: 15px;
+        letter-spacing: 1px;
+        margin-top: 30px;
+        font-family: sans-serif;
+      }
+      .form input:focus{
+        outline: none;
+      }
+
+      .placeholder{
+        color:white;
+        font-size: 15px;
+        letter-spacing: 1px;
+        font-family: Arial;
+
+      }
+      .form button{
+        width: 240px;
+        height: 40px;
+        background: #1ABC9C;
+        color: white;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+        font-size: 15px;
+        letter-spacing: 1px;
+        font-family: sans-serif;
+        margin-top: 30px;
+        font-weight: bold;
+      }
+
+      .form button:hover{
+        background: white;
+        color: orchid;
+        
+      }
+
+      .btn a{
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+      }
+    
+      
+    .link-group {
+  margin-top: 20px;
+}
+
+.link {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+  margin-left: -1455;
+  text-align: center;
+}
+
+
+.signuphere {
+  color: black;
+  font-weight: bold;
+  font-size: 15px;
+  text-decoration: underline;
+  display: block;
+  margin-top: 10px; 
+  text-align: center;
+}
+
+    
+ .loginwith{
+       padding-top: 15px;
+        padding-bottom: 10px;
+        text-align: center;
+        margin-top: -0%;
+        text-align: center;
+        font-weight: bold;
+      }
+
+
+.social-icons {
+  display: flex;                      
+  justify-content: space-between;   
+  align-items: center;            
+  margin-top: 10px;               
+  padding: 0 10px;                  
+  font-size:20px;
+  
+}
+
